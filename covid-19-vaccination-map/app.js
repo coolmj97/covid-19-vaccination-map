@@ -75,8 +75,8 @@ function makeHTML(result) {
   li.innerText = result.centerName;
   resultAddress.innerText = result.address;
   resultMapLink.innerText = '지도 보기';
-  latitude.innerText = result.lng;
-  longitude.innerText = result.lat;
+  latitude.innerText = result.lat;
+  longitude.innerText = result.lng;
 
   table.appendChild(li);
   li.appendChild(resultAddress);
