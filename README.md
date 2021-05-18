@@ -6,7 +6,7 @@
 * 공공데이터 코로나19 예방접종센터 조회서비스 API를 이용하여 지역을 검색하면 해당 위치의 지도를 출력하는 웹앱입니다.   
 * 시맨틱 마크업, 반응형 레이아웃   
 * 기술 스택   
-  * HTML   
-  * CSS   
-  * JavaScript(ES6)   
+  - HTML   
+  - CSS   
+  - JavaScript(ES6)   
 * [Demo](https://coolmj97.github.io/covid-19-vaccination-map/covid-19-vaccination-map/)
