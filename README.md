@@ -1,7 +1,7 @@
 # covid-19-vaccination-map    
 
 ## 코로나 백신 맵     
-<img width="1280" alt="thumbnail" src="https://user-images.githubusercontent.com/65945909/120169098-90503780-c23a-11eb-9939-d2a635e8aa52.gif">     
+<img width="1280" alt="thumbnail" src="https://user-images.githubusercontent.com/65945909/120169498-fd63cd00-c23a-11eb-85b8-6356c3c6110b.gif">     
 
 
 * 만든 날짜: 2021.05     
