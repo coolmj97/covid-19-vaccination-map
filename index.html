@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="김민정" />
+    <meta
+      name="description"
+      content="코로나19 예방접종센터 정보를 한눈에 볼 수 있는 코로나 백신 맵입니다."
+    />
+    <link rel="icon" href="./assets/V.png" type="image/x-icon" />
+    <title>코로나 백신 맵</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAevAkWj35SCBlZtUHTXlviTzUod4vHRfc&callback=initMap&region=kr"
+      defer
+    ></script>
+    <script src="./app.js" defer></script>
+    <script src="./google-map.js"></script>
+  </head>
+  <body>
+    <section class="home">
+      <div class="container">
+        <h1 class="home__title">
+          내 주변의🏠<br />
+          코로나19 예방접종센터💉를<br />
+          찾아보세요😊
+        </h1>
+
+        <div class="division"></div>
+
+        <div class="home__move">
+          <strong class="title" aria-label="검색메인으로 이동">GO</strong>
+          <i class="fas fa-angle-double-down double-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="search">
+      <div class="container">
+        <div class="search__main">
+          <h1 class="search__title">
+            <i class="fas fa-arrow-left" aria-label="홈으로 이동"></i>
+            내 주변 예방접종센터 찾기
+          </h1>
+
+          <form class="search__form">
+            <div class="search__option">
+              <select name="sido" id="" class="search__sido">
+                <option value="">선택하세요</option>
+                <option value="서울특별시">서울특별시</option>
+                <option value="경기도">경기도</option>
+                <option value="인천광역시">인천광역시</option>
+                <option value="대전광역시">대전광역시</option>
+                <option value="세종특별자치시">세종특별자치시</option>
+                <option value="충청남도">충청남도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="광주광역시">광주광역시</option>
+                <option value="전라남도">전라남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="대구광역시">대구광역시</option>
+                <option value="경상북도">경상북도</option>
+                <option value="부산광역시">부산광역시</option>
+                <option value="울산광역시">울산광역시</option>
+                <option value="경상남도">경상남도</option>
+                <option value="강원도">강원도</option>
+                <option value="제주특별자치도">제주특별자치도</option>
+              </select>
+              <select name="sigungu" id="" class="search__sigungu"></select>
+            </div>
+
+            <button type="button" class="search__button" aria-label="검색하기">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+
+          <ul class="search__result"></ul>
+        </div>
+
+        <div class="search__map"></div>
+      </div>
+    </section>
+  </body>
+</html>
