@@ -11,4 +11,4 @@
   - HTML     
   - CSS     
   - JavaScript(ES6)     
-* [Demo](https://coolmj97.github.io/covid-19-vaccination-map/covid-19-vaccination-map/)  
+* [Demo](https://coolmj97.github.io/covid-19-vaccination-map/index.html)  
