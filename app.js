@@ -67,8 +67,6 @@ function makeHTML(result) {
   latitude.classList.add('coordinates');
   longitude.classList.add('coordinates');
 
-  li.id = result.id;
-  resultAddress.id = result.id;
   resultDetail.id = result.id;
   resultMapLink.id = result.id;
 
